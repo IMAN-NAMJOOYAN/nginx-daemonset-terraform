@@ -44,7 +44,7 @@ resource "kubernetes_daemon_set_v1" "nginx-daemonset" {
       spec {
         container {
           image = "${var.image-name}"
-          name  = "nginx-container"
+          name  = "${var.container-name}"
 
           resources {
             limits = {
