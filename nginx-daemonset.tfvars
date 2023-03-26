@@ -1,0 +1,1 @@
+image-name = "<Resigtry Name>/nginx"
